@@ -3,6 +3,7 @@
 ---
 
 The main goal of this course is to give you some basic understanding how the web works.
+
 ![5vm258](https://user-images.githubusercontent.com/43992068/150689739-d1da58ff-e8bc-4cf1-85a5-fe7089b846d9.jpg)
 
 ---
