@@ -7,7 +7,7 @@ namespace SocketUdpClient
 {
     public static class Program
     {
-        private static Dictionary<int, List<string>> messages = new();
+        private static List<string> messages = new();
 
         private static IPAddress? localhostIP;
 
@@ -36,6 +36,7 @@ namespace SocketUdpClient
 
             try
             {
+                hostName = Dns.GetHostName();
                 using var listeningSocket = ConnectSocket(hostName!, localPort);
 
                 _ = Task.Run(() => Listener(listeningSocket, remotePort));
@@ -110,14 +111,7 @@ namespace SocketUdpClient
 
         private static void StoreMessage(int port, string message)
         {
-            if (messages.TryGetValue(port, out var storedMessages))
-            {
-                storedMessages.Add(message);
-            }
-            else
-            {
-                messages.Add(port, new List<string> { message });
-            }
+             messages.Add(message);
         }
 
         private static void StoreAllMessages()
@@ -134,7 +128,7 @@ namespace SocketUdpClient
             }
 
             var serialized = File.ReadAllText(storedMessagesFilePath);
-            var res = JsonSerializer.Deserialize(serialized, typeof(Dictionary<int, List<string>>)) as Dictionary<int, List<string>>;
+            var res = JsonSerializer.Deserialize(serialized, typeof(List<string>)) as List<string>;
 
             if (res is not null)
             {
@@ -144,12 +138,9 @@ namespace SocketUdpClient
 
         private static void PrintStoredMessages(int port)
         {
-            if (messages.TryGetValue(port, out var storedMessages))
+            foreach (var message in messages)
             {
-                foreach (var message in storedMessages)
-                {
-                    Console.WriteLine(message);
-                }
+                Console.WriteLine(message);
             }
         }
 
