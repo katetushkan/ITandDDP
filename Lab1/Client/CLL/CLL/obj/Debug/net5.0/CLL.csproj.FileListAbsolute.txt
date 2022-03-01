@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\CLL\CLL\bin\Debug\net5.0\CLL.exe
+C:\Users\user\source\repos\CLL\CLL\bin\Debug\net5.0\CLL.deps.json
+C:\Users\user\source\repos\CLL\CLL\bin\Debug\net5.0\CLL.runtimeconfig.json
+C:\Users\user\source\repos\CLL\CLL\bin\Debug\net5.0\CLL.runtimeconfig.dev.json
+C:\Users\user\source\repos\CLL\CLL\bin\Debug\net5.0\CLL.dll
+C:\Users\user\source\repos\CLL\CLL\bin\Debug\net5.0\ref\CLL.dll
+C:\Users\user\source\repos\CLL\CLL\bin\Debug\net5.0\CLL.pdb
+C:\Users\user\source\repos\CLL\CLL\obj\Debug\net5.0\CLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\CLL\CLL\obj\Debug\net5.0\CLL.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CLL\CLL\obj\Debug\net5.0\CLL.AssemblyInfo.cs
+C:\Users\user\source\repos\CLL\CLL\obj\Debug\net5.0\CLL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CLL\CLL\obj\Debug\net5.0\CLL.dll
+C:\Users\user\source\repos\CLL\CLL\obj\Debug\net5.0\ref\CLL.dll
+C:\Users\user\source\repos\CLL\CLL\obj\Debug\net5.0\CLL.pdb
+C:\Users\user\source\repos\CLL\CLL\obj\Debug\net5.0\CLL.genruntimeconfig.cache
