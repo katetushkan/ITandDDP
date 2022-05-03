@@ -13,3 +13,6 @@ functions:
   - delete selected message
 
 data model: dialog { username, messages}
+
+![mockup-login](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-03%2023-13-57.png?raw=true)
+![mockup-login](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-03%2023-31-10.png?raw=true)
