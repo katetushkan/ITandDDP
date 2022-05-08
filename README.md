@@ -17,3 +17,8 @@ data model: dialog { username, messages}
 
 ![img1](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-09%2000-31-25.png?raw=true)
 ![img2](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-09%2000-31-42.png?raw=true)
+
+Mobile:
+
+![img3](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-09%2001-00-47.png?raw=true)
+![img4](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-09%2000-58-49.png?raw=true)
