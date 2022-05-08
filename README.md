@@ -1,3 +1,4 @@
+Belausau Andrei 953505
 Messanger app.
 
 1st screen - login screen. User authorizes to start chatting.
@@ -14,5 +15,5 @@ functions:
 
 data model: dialog { username, messages}
 
-![img1](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-03%2023-13-57.png?raw=true)
-![img2](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-03%2023-31-10.png?raw=true)
+![img1](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-09%2000-31-25.png?raw=true)
+![img2](https://github.com/Andrushens/ITandDDP-1/blob/lab2/Screenshot%20from%202022-05-09%2000-31-42.png?raw=true)
