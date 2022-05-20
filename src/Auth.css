@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #17212b;
+    --background-color: #0e1621;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+h1,
+p,
+a {
+    color: white;
+}
+
+.auth-container {
+    background: var(--background-color);
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.navbar {
+    padding: 2em 0 0.5em 2em;
+    background: var(--primary-color);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    flex: 1;
+}
+
+::-webkit-input-placeholder {
+    color: lightblue;
+}
+
+#login-textarea {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+#password-textarea {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.reviews {
+    margin-top: calc(100vh - 600px);
+    padding: 3em;
+    background: var(--primary-color);
+    color: white;
+}
+
+.login-button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1080px) {
+    .reviews ul {
+        display: flex;
+    }
+}
