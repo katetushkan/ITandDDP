@@ -49,7 +49,7 @@ Any client can create a group with unique identifier. Other clients can request 
 
 # Block #2
 
-After finishing next 5 works u will have a completed web application. It would be a nice if u have ur own ideas, discuss them with me and we will find a right way to make it happen =)
+After finishing next 4 works u will have a completed web application. It would be a nice if u have ur own ideas, discuss them with me and we will find a right way to make it happen =)
 
 There are some references for u, as an example:
 
@@ -124,9 +124,9 @@ Acceptance criteria:
 
 NOTE: Pls, think about structure of ur project, its scalability and data it is going to process.
 
-## Work №5 "JS Modules"
+## Work №5 "API Integration"
 
-To accomplish this work u need to create modules to work with 3rd party API. It can be Google Calendar, Google Disk, Firebase Services, Mongo DB, AWS S3, Yandex.Maps, GitHub API and so on, whatever ur application needs.’
+To accomplish this work u need to create modules to work with 3rd party API and integrate ur app with them. It can be Google Calendar, Google Disk, Firebase Services, Mongo DB, AWS S3, Yandex.Maps, GitHub API and so on, whatever ur application needs.’
 
 These modules should be independent, which means that I can add it to any application I want to, and it’s gonna work. U need to create files with functions(like API, Validator, [DTO](https://en.wikipedia.org/wiki/Data_transfer_object)), then u should be able to import it any place u need this functionality and use it.
 
@@ -138,15 +138,4 @@ Acceptance criteria:
 4. Clean architecture is required.
 5. Authorisation functionality is required.
 
-## Work №6 "Framework"
-
-It’s time! To accomplish this work u need to create any-js-framework-or-library project and  transfer the logic u already created. For this moment u should already have all functions u need for ur app and now, u can use a framework/lib as an interface for it.
-
-Acceptance criteria:
-
-1. GitHub repo is required.
-2. PR into the main branch are required.
-3. JS Libraries and Frameworks, like React, Vue, Angular are allowed.
-4. Use functions from modules u created before.
-5. Authorisation is required.
-6. SPA is required.
+>> The 5th work is gonna be ur final, which is mean that all the functionality requried at the beginning should be implemented.
