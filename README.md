@@ -49,7 +49,7 @@ Any client can create a group with unique identifier. Other clients can request 
 
 # Block #2
 
-After finishing next 4 works u will have a completed web application. It would be a nice if u have ur own ideas, discuss them with me and we will find a right way to make it happen =)
+After finishing next 4 works u will have a completed web application. It would be nice if u have ur own ideas, discuss them with me and we will find a right way to make it happen =)
 
 There are some references for u, as an example:
 
