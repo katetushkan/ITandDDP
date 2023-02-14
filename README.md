@@ -139,3 +139,11 @@ Acceptance criteria:
 5. Authorisation functionality is required.
 
 > The 5th work is gonna be ur final, which is mean that all the functionality requried at the beginning should be implemented.
+
+
+
+
+
+>And once again:
+>
+># NO LIBRARIES OR FRAMEWORKS SUCH AS REACT, ANGULAR, VUE, REMIX etc ARE ALLOWED FOR THIS COURSE!
